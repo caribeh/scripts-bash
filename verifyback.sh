@@ -13,10 +13,10 @@ verify_dependencys() {
 
 help(){
     echo 'usage: verifyback.sh [-l|-d|-h]
-        -l filename   Take server to use from a file. This file can have multiple servers, one per line
-        -s serverIP   Test one given server
-        -a IP         Test all network ips (Write -a 127.0.0.0 for example, to test 127.0.0.1 until 127.0.0.255)
-        -h            This Help menu'
+        -l filename outputfile   Take server to use from a file. This file can have multiple servers, one per line
+        -s serverIP outputfile   Test one given server
+        -a IP outputfile         Test all network ips (Write -a 127.0.0.0 for example, to test 127.0.0.1 until 127.0.0.255)
+        -h outputfile            This Help menu'
 }
 
 back_verify() {
